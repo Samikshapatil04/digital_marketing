@@ -1,0 +1,87 @@
+
+        body{
+            font-family:'Times New Roman', Times, serif;
+            margin: 10px;
+            padding: 3px;
+            background-color: #f0f0f0;
+        }
+        
+        header {
+            background-color:thistle;
+            color:rgb(31, 4, 50);
+            padding: 5px 0;
+            text-align: center;
+            text-size-adjust:initial;
+        }
+        
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+        
+        .breadcrumb {
+            background-color: #ddd;
+            padding: 10px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .content {
+            padding: 40px;
+            text-align:center;
+            margin: 10px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position:relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .image-container {
+            display:flex;
+            justify-content:flex-end; /* Adjust this property to change the space between images */
+         }
+
+         .image-container img {
+         width: 350px;
+         height: 300px;
+         }
+         
+         .btn {
+            text-align: center;
+            display: inline-block;
+            background-color:lightgreen;
+            color: #fff;
+            padding: 15px 25px;
+            border-radius: 8px;
+            text-decoration:double;
+            font-weight: bold;
+    
+          }
+
+          .feature-box {
+            text-align: center;
+
+          }
+          
+          .feature-box img {
+           width: 350px;
+           height: 300px;
+            margin-bottom: 20px;
+          }

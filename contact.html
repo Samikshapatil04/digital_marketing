@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us </title>
+    <link rel="icon" type="image/x" href="https://i.pinimg.com/736x/88/7a/f8/887af80b0de39706fbcafc07b91869c9.jpg">
+    <link rel="stylesheet" href="market.css" />
+    <style>
+        body {
+            background-image: url("https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?s=612x612&w=0&k=20&c=_vmYyAX0aFi-sHH8eYS-tLLNfs1ZWXnNB8M7_KWwhgg=");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 100px;
+            / Adjust margin /
+            padding: 3px;
+            border: 1px solid #d37f7f;
+            border-radius: 7px;
+
+            background-color: rgba(102, 100, 100, 0.7);
+            / Add background color with transparency /
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: calc(100% - 22px);
+            / Adjust width to account for padding and border /
+            padding: 70px;
+            margin-bottom: 10px;
+            border: 1px solid #db7d7d;
+            border-radius: 5px;
+            box-sizing: border-box;
+            
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: rgb(224, 118, 178);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        label {
+            color:rgb(20, 20, 20); / Label text color /
+            font-weight: bold;
+        }
+
+        textarea {
+            color: #78660a; / Textarea text color /
+        }
+
+        .head{
+            text-align: center;
+            text-shadow: blanchedalmond;
+            color:gold;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+    <h1>Welcome to Product Demo Series ! </h1>
+    </div>
+    <div class="container">
+        <h2
+            style="text-align: center; font-size: xx-large;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            <u><b>Contact Us</b></u>
+        </h2>
+        <p style="font-size: large;font-style: italic;color: white; text-align: center;">If you have any questions or inquiries, please
+            feel free to contact us<br> using the form below.</p>
+        <form action="mailto:yourstore@example.com" method="post" enctype="text/plain">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <button class="btn"><a href="index.html">Back</a> </button>
+</body>
+</html>
